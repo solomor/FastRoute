@@ -1,0 +1,15 @@
+{
+  "grubhub": {
+    "file": "grubhub.csv",
+    "coordinates": [
+      [
+        "searched_lat",
+        "searched_lng"
+      ],
+      [
+        "latitude",
+        "longitude"
+      ]
+    ]
+  }
+}
