@@ -6,7 +6,7 @@ Use `docs/TEAM_CONTRIBUTIONS_CHECKLIST.md` as the worksheet. Replace the table b
 
 | Team member | Areas owned | Evidence (files / demos / commits) |
 |---|---|---|
-| WARI LOJANO | | |
 | _TBD_ | | |
 | _TBD_ | | |
 | _TBD_ | | |
+| Wari Lojano | WEB SITE  | ..... |
