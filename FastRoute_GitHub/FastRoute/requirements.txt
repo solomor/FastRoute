@@ -1,0 +1,8 @@
+streamlit>=1.39,<2
+osmnx>=2.0,<3
+pyproj>=3.6,<4
+networkx>=3.2,<4
+pandas>=2.2,<3
+plotly>=6.0,<7
+folium>=0.17,<1
+branca>=0.7,<1
