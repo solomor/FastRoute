@@ -7,6 +7,6 @@ Use `docs/TEAM_CONTRIBUTIONS_CHECKLIST.md` as the worksheet. Replace the table b
 | Team member | Areas owned | Evidence (files / demos / commits) |
 |---|---|---|
 | Calelle Polynice | Technical Paper | |
-| _TBD_ | | |
-| _TBD_ | | |
+| Carlos Funez|Software coding/ Slides | |
+| Omar sloinan |Dataset Search/Slides| |
 | Wari Lojano | WEB SITE  | ..... |
