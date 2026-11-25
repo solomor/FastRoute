@@ -325,7 +325,7 @@ A reproducible classroom scenario:
 1. Area: cached **Jersey City, New Jersey, USA** when available  
 2. Stop source: OpenStreetMap sampled intersections  
 3. Deliveries: **6** · seed **42**  
-4. Algorithms: all four (exact solvers are within caps)
+4. Algorithms: Dijkstra · A* · Brute-Force Route Search (exact BF within caps)
 """
     )
     if st.button('Load Demo Experiment', type='primary'):

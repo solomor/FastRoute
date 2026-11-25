@@ -17,7 +17,7 @@ Study route optimization and the distinction between inefficient algorithms and 
 | Algorithm 2 — Efficient course-based | Dijkstra’s Algorithm (student-implemented shortest paths on OSM roads; also builds the pairwise matrix) |
 | Algorithm 3 — Alternative / optimized | A* Search Algorithm (same path problem with admissible geographic heuristic) |
 
-Supporting “same algorithm, better settings” improvement story (nearest-neighbor order / larger BF budget) strengthens the optimization narrative but does **not** replace the three core solvers.
+Supporting “same algorithm, better settings” stories (Bad→Semi→Best ladder; Dijkstra sample order vs Brute-Force order + Dijkstra; larger nested BF budgets) strengthen the optimization narrative but do **not** replace the three core solvers.
 
 ## Final deliverables checklist
 

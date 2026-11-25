@@ -20,7 +20,7 @@ The Bad ladder tier uses linear-scan extract-min (implementation inefficiency). 
 ## 3. A* Search
 A* adds an admissible haversine heuristic in meters. On the same stop order, A* and Dijkstra must report the same tour distance when the heuristic is admissible. A* often settles fewer nodes.
 
-**A* does not solve TSP.** The ladder “Best” tier that applies nearest-neighbor **order** changes the multi-stop objective setting — see `OPTIMIZATION_TIER_COMPARABILITY.md`.
+**A* does not solve TSP.** It finds shortest paths for a fixed stop order. A* Bad/Semi/Best keep that **same sample order** (nearest-neighbor reordering was removed from the active ladder — see `OPTIMIZATION_TIER_COMPARABILITY.md`).
 
 ## 4. Brute-Force Route Search
 Brute Force tries delivery permutations on the Dijkstra matrix. Exhaustive time is `O(n! × n)`. Exact mode is limited to small n (≤9). Larger n uses **sampled** search and must never be labeled a guaranteed optimum.
