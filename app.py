@@ -339,7 +339,10 @@ A reproducible classroom scenario:
             experiment['seed'] = 42
             experiment['source'] = experiment.get('source', '') + ' · Demo Mode'
             st.session_state.experiment = experiment
-            st.session_state.visible_algorithms = [row['Algorithm'] for row in experiment['results']]
+            st.session_state.visible_algorithms = default_visible_algorithms(
+                experiment['results'],
+                experiment.get('delivery_count'),
+            )
             st.session_state.autoplay_map = True
             st.session_state.section = '1 · Configure & Run Route'
             st.success('Demo experiment loaded. Opening the map view.')
