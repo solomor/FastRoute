@@ -1,0 +1,5 @@
+deliveries,algorithm,short_name,status,skip_reason,trials,avg_runtime_ms,min_runtime_ms,max_runtime_ms,avg_distance_km,avg_peak_memory_kb,avg_operations,optimality_gap_percent,optimality_gap_note
+250,A* Search Algorithm,A*,ok,,1,722.7357,722.7357,722.7357,903.6073,0.0,65064,,unavailable
+250,Dijkstra's Algorithm,Dijkstra,ok,,1,834.7413,834.7413,834.7413,903.6073,0.0,261128,,unavailable
+500,A* Search Algorithm,A*,ok,,1,1650.0631,1650.0631,1650.0631,1869.16443,0.0,136578,,unavailable
+500,Dijkstra's Algorithm,Dijkstra,ok,,1,1521.217,1521.217,1521.217,1869.16443,0.0,534797,,unavailable

@@ -1,0 +1,8 @@
+deliveries,search_mode,claimed_mode,max_permutations_budget,factorial_n,trials,avg_runtime_ms,min_runtime_ms,max_runtime_ms,avg_peak_memory_kb,avg_permutations_evaluated,avg_distance_km,verified_optimal,optimality_note,matrix_build_ms,place,seed,bad_tier_budget_reference,semi_tier_budget_reference
+4,exhaustive,exhaustive,full_n_factorial,24,3,0.06907,0.0573,0.0901,1.081,24,17.06856,True,Exhaustive enumeration — proven optimum on this matrix,9.911,"Jersey City, New Jersey, USA",42,100,25000
+6,exhaustive,exhaustive,full_n_factorial,720,3,2.06567,1.6538,2.3165,1.211,720,18.02094,True,Exhaustive enumeration — proven optimum on this matrix,17.1464,"Jersey City, New Jersey, USA",42,100,25000
+8,exhaustive,exhaustive,full_n_factorial,40320,3,108.15213,104.3217,115.5407,1.299,40320,27.43507,True,Exhaustive enumeration — proven optimum on this matrix,17.7833,"Jersey City, New Jersey, USA",42,100,25000
+9,exhaustive,exhaustive,full_n_factorial,362880,3,1008.49397,968.5467,1040.6283,1.328,362880,27.87446,True,Exhaustive enumeration — proven optimum on this matrix,21.2017,"Jersey City, New Jersey, USA",42,100,25000
+12,sampled,sampled,25000,479001600,3,159.35083,149.3287,169.3365,5380.117,25000,35.38459,False,Sampled / capped search — NOT a guaranteed global optimum,29.7794,"Jersey City, New Jersey, USA",42,100,25000
+16,sampled,sampled,25000,20922789888000,3,180.23383,167.1784,189.848,6119.841,25000,45.53814,False,Sampled / capped search — NOT a guaranteed global optimum,34.0352,"Jersey City, New Jersey, USA",42,100,25000
+25,sampled,sampled,25000,15511210043330985984000000,3,241.14357,216.9964,255.7614,8107.234,25000,71.17393,False,Sampled / capped search — NOT a guaranteed global optimum,67.2396,"Jersey City, New Jersey, USA",42,100,25000

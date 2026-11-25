@@ -1,0 +1,5 @@
+deliveries,short_name,avg_runtime_ms
+250,A*,722.7357
+250,Dijkstra,834.7413
+500,A*,1650.0631
+500,Dijkstra,1521.217

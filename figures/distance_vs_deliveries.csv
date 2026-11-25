@@ -1,0 +1,26 @@
+deliveries,short_name,avg_distance_km
+4,A*,17.06856
+4,Dijkstra,17.06856
+4,Brute Force,17.06856
+6,A*,23.08258
+6,Dijkstra,23.08258
+6,Brute Force,18.02094
+8,A*,44.14085
+8,Dijkstra,44.14085
+8,Brute Force,27.43507
+9,A*,44.72727
+9,Dijkstra,44.72727
+9,Brute Force,27.87446
+12,A*,53.43628
+12,Dijkstra,53.43628
+12,Brute Force,34.42983
+16,A*,70.39455
+16,Dijkstra,70.39455
+16,Brute Force,45.38733
+25,A*,103.2717
+25,Dijkstra,103.2717
+25,Brute Force,69.75153
+50,A*,196.85046
+50,Dijkstra,196.85046
+100,A*,371.61988
+100,Dijkstra,371.61988

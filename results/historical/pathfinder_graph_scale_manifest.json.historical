@@ -1,0 +1,40 @@
+{
+  "experiment": "pathfinder_graph_scale",
+  "description": "Dijkstra vs A* on authentic OSM graphs; same reachable pairs",
+  "environment": {
+    "python": "3.14.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "measured_at_utc": "2026-11-22T06:50:03.117090+00:00",
+    "timing": "time.perf_counter around student dijkstra/astar only; graph load excluded",
+    "memory": "tracemalloc peak during each trial (Python allocator, not OS RSS)"
+  },
+  "pairs_per_graph": 5,
+  "trials_per_pair": 3,
+  "base_seed": 42,
+  "results_csv": "results/pathfinder_graph_scale.csv",
+  "row_count": 30,
+  "graphs_measured": [
+    [
+      "Brooklyn, New York, USA",
+      13999,
+      34481
+    ],
+    [
+      "Jersey City, New Jersey, USA",
+      2184,
+      5122
+    ],
+    [
+      "NYC / NJ metro (merged caches)",
+      57508,
+      144342
+    ]
+  ],
+  "blocked_or_notes": [
+    {
+      "note": "100,000-node and 1,000,000-node targets were not fabricated. Largest measured graph is the merged NYC/NJ cache (~57k nodes)."
+    }
+  ]
+}

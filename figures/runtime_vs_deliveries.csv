@@ -1,0 +1,26 @@
+deliveries,short_name,avg_runtime_ms
+4,A*,9.41577
+4,Dijkstra,12.42787
+4,Brute Force,0.0728
+6,A*,11.20333
+6,Dijkstra,16.1985
+6,Brute Force,2.11397
+8,A*,41.52897
+8,Dijkstra,28.505
+8,Brute Force,121.35037
+9,A*,36.27567
+9,Dijkstra,22.52227
+9,Brute Force,1076.75547
+12,A*,47.5436
+12,Dijkstra,33.5677
+12,Brute Force,172.29793
+16,A*,59.5709
+16,Dijkstra,47.81943
+16,Brute Force,170.89483
+25,A*,100.92213
+25,Dijkstra,70.18023
+25,Brute Force,232.75317
+50,A*,182.37397
+50,Dijkstra,120.94747
+100,A*,314.8235
+100,Dijkstra,260.44087

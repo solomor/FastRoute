@@ -1,0 +1,26 @@
+deliveries,short_name,avg_operations
+4,A*,870.0
+4,Dijkstra,5135.0
+4,Brute Force,24.0
+6,A*,1044.0
+6,Dijkstra,6895.0
+6,Brute Force,720.0
+8,A*,3671.0
+8,Dijkstra,11135.0
+8,Brute Force,40320.0
+9,A*,3518.0
+9,Dijkstra,11384.0
+9,Brute Force,362880.0
+12,A*,4221.0
+12,Dijkstra,14251.0
+12,Brute Force,25000.0
+16,A*,5446.0
+16,Dijkstra,19203.0
+16,Brute Force,25000.0
+25,A*,8878.0
+25,Dijkstra,27158.0
+25,Brute Force,25000.0
+50,A*,16223.0
+50,Dijkstra,54206.0
+100,A*,28746.0
+100,Dijkstra,106765.0

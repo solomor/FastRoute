@@ -1,0 +1,38 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+.env
+.env.*
+cache/
+data/graphs/
+*.graphml
+*.parquet
+*.pkl
+# Keep measured CSVs for the paper; ignore ad-hoc scratch only.
+results/_scratch/
+portfolio_evidence_pack/
+checkpoints/
+backups/
+*.zip
+.DS_Store
+Thumbs.db
+docs/Untitled
+
+# Local / optional datasets (download per data/README.md)
+/data/food_delivery_dataset.csv
+/data/grubhub.csv
+/data/user/grubhub.csv
+/data/user/catalog.json
+/data/user/*.csv
+/data/user/*.json
+
+# Editor / agent scratch
+.cursor/
+agent-transcripts/

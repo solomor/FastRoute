@@ -1,0 +1,28 @@
+deliveries,algorithm,short_name,status,skip_reason,trials,avg_runtime_ms,min_runtime_ms,max_runtime_ms,avg_distance_km,avg_peak_memory_kb,avg_operations,optimality_gap_percent,optimality_gap_note
+4,A* Search Algorithm,A*,ok,,3,21.9443,19.3937,23.96,17.06856,0.0,870,0.0,measured against Brute-Force Route Search on same matrix
+4,Dijkstra's Algorithm,Dijkstra,ok,,3,27.1395,26.0202,29.2622,17.06856,0.0,5135,0.0,measured against Brute-Force Route Search on same matrix
+4,Brute-Force Route Search,Brute Force,ok,,3,0.3632,0.2541,0.52,17.06856,0.0,24,0.0,measured against Brute-Force Route Search on same matrix
+6,A* Search Algorithm,A*,ok,,3,25.5075,25.397,25.6221,23.08258,0.0,1044,28.09,measured against Brute-Force Route Search on same matrix
+6,Dijkstra's Algorithm,Dijkstra,ok,,3,36.67583,33.4561,38.664,23.08258,0.0,6895,28.09,measured against Brute-Force Route Search on same matrix
+6,Brute-Force Route Search,Brute Force,ok,,3,7.4851,6.4705,8.6527,18.02094,0.0,720,0.0,measured against Brute-Force Route Search on same matrix
+8,A* Search Algorithm,A*,ok,,3,82.1073,80.9698,84.371,44.14085,0.0,3671,60.89,measured against Brute-Force Route Search on same matrix
+8,Dijkstra's Algorithm,Dijkstra,ok,,3,55.5215,53.1824,59.6296,44.14085,0.0,11135,60.89,measured against Brute-Force Route Search on same matrix
+8,Brute-Force Route Search,Brute Force,ok,,3,399.26567,378.8088,436.954,27.43507,0.0,40320,0.0,measured against Brute-Force Route Search on same matrix
+9,A* Search Algorithm,A*,ok,,3,82.31783,76.6139,88.5815,44.72727,0.0,3518,60.46,measured against Brute-Force Route Search on same matrix
+9,Dijkstra's Algorithm,Dijkstra,ok,,3,63.01323,59.1494,65.7225,44.72727,0.0,11384,60.46,measured against Brute-Force Route Search on same matrix
+9,Brute-Force Route Search,Brute Force,ok,,3,4664.13467,4487.2176,5004.5473,27.87446,0.0,362880,0.0,measured against Brute-Force Route Search on same matrix
+12,A* Search Algorithm,A*,ok,,3,107.47543,100.0816,112.6696,53.43628,0.0,4221,,unavailable
+12,Dijkstra's Algorithm,Dijkstra,ok,,3,89.9885,84.3696,94.6626,53.43628,0.0,14251,,unavailable
+12,Brute-Force Route Search,Brute Force,ok,,3,446.8028,428.8124,470.5616,34.42983,0.0,25000,,unavailable
+25,A* Search Algorithm,A*,ok,,3,237.5919,225.4971,244.3049,103.2717,0.0,8878,,unavailable
+25,Dijkstra's Algorithm,Dijkstra,ok,,3,151.27367,142.7828,162.7144,103.2717,0.0,27158,,unavailable
+25,Brute-Force Route Search,Brute Force,ok,,3,553.12813,547.9737,557.3702,69.75153,0.0,25000,,unavailable
+50,A* Search Algorithm,A*,ok,,3,438.4746,386.022,476.307,196.85046,0.0,16223,,unavailable
+50,Dijkstra's Algorithm,Dijkstra,ok,,3,316.9797,301.0375,328.8039,196.85046,0.0,54206,,unavailable
+50,Brute-Force Route Search,Brute Force,skipped,Brute-Force scalability skipped above 25 deliveries (full pairwise matrix build dominates; use A*/Dijkstra for large-n scaling),3,,,,,,,,unavailable
+100,A* Search Algorithm,A*,ok,,3,804.16353,769.1384,825.5414,371.61988,0.0,28746,,unavailable
+100,Dijkstra's Algorithm,Dijkstra,ok,,3,665.53697,635.937,684.8073,371.61988,0.0,106765,,unavailable
+100,Brute-Force Route Search,Brute Force,skipped,Brute-Force scalability skipped above 25 deliveries (full pairwise matrix build dominates; use A*/Dijkstra for large-n scaling),3,,,,,,,,unavailable
+1000,A* Search Algorithm,A*,ok,,3,7617.9647,7340.1811,7765.1357,3676.61604,0.0,258376,,unavailable
+1000,Dijkstra's Algorithm,Dijkstra,ok,,3,7490.1025,7217.0777,7655.8293,3676.61604,0.0,1050968,,unavailable
+1000,Brute-Force Route Search,Brute Force,skipped,Brute-Force skipped at ≥1000 deliveries in scalability (pathfinders only),3,,,,,,,,unavailable

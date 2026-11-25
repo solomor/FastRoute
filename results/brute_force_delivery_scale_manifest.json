@@ -1,0 +1,28 @@
+{
+  "experiment": "brute_force_delivery_scale",
+  "description": "Order-search scalability; separate from Dijkstra/A* pathfinding",
+  "environment": {
+    "python": "3.14.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "measured_at_utc": "2026-11-22T06:49:50.835608+00:00",
+    "timing": "Solver-only around brute_force_route_search; matrix build excluded and recorded separately",
+    "memory": "tracemalloc peak during brute-force solve"
+  },
+  "exhaustive_counts": [
+    4,
+    6,
+    8,
+    9
+  ],
+  "sampled_counts": [
+    12,
+    16,
+    25
+  ],
+  "results_csv": "results/brute_force_delivery_scale.csv",
+  "notes": [
+    "Exhaustive Brute Force is never run at 1000+ deliveries.",
+    "Sampled rows must not be cited as mathematical optima.",
+    "Factorial growth explains why exhaustive search becomes impractical."
+  ]
+}
