@@ -161,19 +161,3 @@ data/
 ## Limitations
 
 One warehouse, one vehicle, closed tour, distance-only objective. No live traffic, capacity, time windows, multi-depot, or multi-driver optimization. Exact solvers are capped for UI responsiveness.
-
-## Academic audit docs
-
-Submission readiness materials (audits, methodology, checklists) live in `docs/`:
-
-- `docs/FINAL_SUBMISSION_READINESS.md` — overall readiness
-- `docs/FINAL_RUBRIC_AUDIT.md` — official rubric scorecard
-- `docs/assignment/` — archived CPS 3440 portfolio requirements
-- `docs/ALGORITHM_CORRECTNESS_AUDIT.md`
-- `docs/BENCHMARK_METHODOLOGY.md`
-- `docs/ALGORITHMIC_EFFICIENCY_ANALYSIS.md`
-- `docs/DATASET_METHODOLOGY.md`
-- `docs/RESEARCH_PAPER_CHECKLIST.md`
-- `docs/GITHUB_SUBMISSION_CHECKLIST.md`
-- `docs/PRESENTATION_CHECKLIST.md`
-- `docs/TEAM_CONTRIBUTIONS_CHECKLIST.md`
